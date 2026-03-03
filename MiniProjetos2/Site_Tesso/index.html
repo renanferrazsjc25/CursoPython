@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleverson Personal Trainer</title>
+  <meta name="description" content="Cleverson Personal Trainer - Treinos personalizados, acompanhamento próximo e foco em resultado com saúde." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-content">
+      <div class="logo">
+        <span class="logo-mark">CP</span>
+        <span class="logo-text">Cleverson Personal</span>
+      </div>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="btn-outline" onclick="scrollToSection('contato')">Agendar Consulta</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Transforme seu corpo com acompanhamento profissional.</h1>
+          <p>
+            Eu sou <strong>Cleverson</strong>, Personal Trainer especializado em resultados sustentáveis.
+            Treinos personalizados, acompanhamento de perto e foco total na sua saúde e performance.
+          </p>
+          <div class="hero-actions">
+            <button class="btn-primary" onclick="scrollToSection('contato')">Começar agora</button>
+            <button class="btn-ghost" onclick="scrollToSection('servicos')">Ver serviços</button>
+          </div>
+          <div class="hero-highlights">
+            <div>
+              <span class="highlight-number">+8</span>
+              <span class="highlight-label">anos de experiência</span>
+            </div>
+            <div>
+              <span class="highlight-number">+200</span>
+              <span class="highlight-label">alunos atendidos</span>
+            </div>
+            <div>
+              <span class="highlight-number">100%</span>
+              <span class="highlight-label">foco em resultado</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-photo">
+            <div class="photo-placeholder">
+              <span>Foto do<br />Cleverson</span>
+            </div>
+          </div>
+          <div class="hero-card-body">
+            <h2>Atendimento Personalizado</h2>
+            <p>
+              Treinos montados de acordo com seu objetivo, rotina, histórico de lesões
+              e nível de condicionamento físico.
+            </p>
+            <ul class="hero-list">
+              <li>Emagrecimento saudável</li>
+              <li>Ganho de massa muscular</li>
+              <li>Performance esportiva</li>
+              <li>Recondicionamento físico</li>
+            </ul>
+            <button class="btn-secondary" onclick="scrollToSection('contato')">
+              Falar com o Cleverson
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container section-grid">
+        <div>
+          <h2>Quem é o Cleverson?</h2>
+          <p>
+            Cleverson é <strong>Personal Trainer</strong> com atuação focada em resultados reais e sustentáveis.
+            Ao longo dos anos, acompanhou dezenas de alunos em objetivos variados, desde emagrecimento
+            até preparação para competições, sempre com uma abordagem humana e individualizada.
+          </p>
+          <p>
+            Cada aluno é único: por isso, os treinos são estruturados com base em avaliação física, rotina,
+            preferências e limitações. O objetivo é garantir evolução contínua, prevenção de lesões
+            e uma relação mais saudável com o exercício.
+          </p>
+        </div>
+        <div class="sobre-cards">
+          <article class="info-card">
+            <h3>Formação & Especializações</h3>
+            <ul>
+              <li>Graduação em Educação Física</li>
+              <li>Especialização em Treinamento de Força</li>
+              <li>Certificação em Emagrecimento e Saúde Metabólica</li>
+              <li>Atualizações constantes em ciência do exercício</li>
+            </ul>
+          </article>
+          <article class="info-card">
+            <h3>Metodologia de Trabalho</h3>
+            <ul>
+              <li>Planejamento de treinos por ciclos</li>
+              <li>Acompanhamento próximo (feedback e ajustes)</li>
+              <li>Foco em consistência, não em soluções mágicas</li>
+              <li>Equilíbrio entre performance, estética e saúde</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="servicos">
+      <div class="container">
+        <header class="section-header">
+          <h2>Serviços</h2>
+          <p>Escolha o formato que mais se encaixa na sua rotina.</p>
+        </header>
+        <div class="cards-grid">
+          <article class="service-card">
+            <h3>Personal Presencial</h3>
+            <p>
+              Aulas presenciais em academia ou condomínio, com acompanhamento em tempo real
+              de técnica, carga e evolução.
+            </p>
+            <ul>
+              <li>Avaliação física inicial</li>
+              <li>Treinos 100% personalizados</li>
+              <li>Correção de postura e execução</li>
+              <li>Relatórios de evolução mensais</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Consultoria Online</h3>
+            <p>
+              Ideal para quem já treina, mas precisa de um plano estruturado e suporte profissional
+              à distância.
+            </p>
+            <ul>
+              <li>Treino enviado via aplicativo/planilha</li>
+              <li>Ajustes semanais conforme feedback</li>
+              <li>Suporte por WhatsApp</li>
+              <li>Vídeos demonstrativos de exercícios</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Projeto Emagrecimento</h3>
+            <p>
+              Programa focado em perda de gordura com preservação de massa muscular, unindo
+              treino e orientação de hábitos.
+            </p>
+            <ul>
+              <li>Planejamento de treino específico</li>
+              <li>Acompanhamento de medidas e fotos</li>
+              <li>Estratégias de aderência à rotina</li>
+              <li>Parceria com nutricionistas (opcional)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resultados">
+      <div class="container">
+        <header class="section-header">
+          <h2>Resultados de alunos</h2>
+          <p>Histórias reais de pessoas que confiaram no trabalho do Cleverson.</p>
+        </header>
+        <div class="cards-grid testimonials-grid">
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “Em 6 meses com o Cleverson perdi 12kg mantendo minha massa magra.
+              Hoje me sinto mais leve, com energia e confiança. O diferencial foi o cuidado
+              em adaptar os treinos à minha rotina corrida.”
+            </p>
+            <p class="testimonial-name">Ana, 34 anos</p>
+          </article>
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “Treino com o Cleverson há mais de 2 anos. Ganhei força, postura e nunca mais
+              tive dores nas costas. A metodologia é séria, sem promessas milagrosas.”
+            </p>
+            <p class="testimonial-name">Carlos, 41 anos</p>
+          </article>
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “Eu sempre tive dificuldade de manter uma rotina, mas com a consultoria online
+              ficou muito mais fácil. Ele ajusta tudo quando preciso e me cobra na medida certa.”
+            </p>
+            <p class="testimonial-name">Juliana, 28 anos</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <h2>Entre em contato</h2>
+          <p>
+            Preencha o formulário ao lado ou envie mensagem direto pelo WhatsApp.
+            Em breve o Cleverson retornará para entender seus objetivos e explicar os planos.
+          </p>
+          <div class="contact-actions">
+            <a
+              href="https://wa.me/5512981256703?text=Ol%C3%A1%20Cleverson,%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os%20de%20personal."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary"
+            >
+              Falar no WhatsApp agora
+            </a>
+          </div>
+          <div class="contact-info">
+            <p><strong>Região de atendimento presencial:</strong> São José dos Campos - Smartfit, BLueFit, Compassfit, Panobianco</p>
+            <p><strong>Atendimento online:</strong> Brasil inteiro</p>
+            <p><strong>WhatsApp:</strong> <span id="whatsapp-number">12 98125-6703</span></p>
+            <p><strong>E-mail:</strong> <span id="email-address">renanferraz25@gmail.com</span></p>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required />
+          </div>
+          <div class="form-group">
+            <label for="objetivo">Objetivo principal</label>
+            <select id="objetivo" name="objetivo" required>
+              <option value="">Selecione...</option>
+              <option value="emagrecimento">Emagrecimento</option>
+              <option value="massa_muscular">Ganho de massa muscular</option>
+              <option value="condicionamento">Melhorar condicionamento físico</option>
+              <option value="performance">Performance esportiva</option>
+              <option value="saude">Saúde geral e bem-estar</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Fale um pouco sobre você, sua rotina e objetivos." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Quero falar com o Cleverson</button>
+          <p class="form-feedback" id="form-feedback" hidden>
+            Obrigado! Sua mensagem foi registrada. Personalize depois para enviar por e-mail ou WhatsApp.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Cleverson Personal Trainer. Todos os direitos reservados.</p>
+      <p class="footer-note">Site estático criado para apresentação profissional. Adapte com seus dados reais.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
