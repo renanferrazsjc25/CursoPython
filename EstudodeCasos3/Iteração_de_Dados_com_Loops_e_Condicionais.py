@@ -28,8 +28,9 @@ produtos = {'Arroz': 25,
             'Feijao': 12,
             'Carne': 45,
             'Macarrao': 8
-}
+            }
 
 for item, preco in produtos.items():
     if preco > 20:
         print(f'{item} custa {preco} reais (Acima de 20)')
+
