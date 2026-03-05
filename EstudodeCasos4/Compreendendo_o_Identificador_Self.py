@@ -1,8 +1,8 @@
 # Uma forma didática de compreendero self é pensar que ele funciona como o “cartão de identificação”
 # do próprio objeto que está sendo criado ou manipulado.
-# 
+#
 # Quando você escreve a classe Cliente e depois cria,por exemplo:
-# 
+#
 # c1 = Cliente("Maria", "123.456.789-00")
 
 # c2 = Cliente("João", "987.654.321-00")
@@ -40,6 +40,19 @@ class identificação:
         print(f'Nome: {self.nome}, CPF: {self.cpf}')
 
 
+class cadastro(identificação):
+
+    def __init__(self, nome, cpf, rg):
+        self.nome = nome
+        self.cpf = cpf
+        self.rg = rg
+
+        super().__init__(nome, cpf)
+
+    def exibir_info_cadastro(self):
+        print(f'Nome: {self.nome}, CPF: {self.cpf}, RG: {self.rg}')
+
+
 c1 = identificação('Joao', '123.456.789-00')
 
 c1.exibir_info()
@@ -47,3 +60,7 @@ c1.exibir_info()
 c2 = identificação('Maria', '987.654.321-00')
 
 c2.exibir_info()
+
+c3 = cadastro('Maria', '985.654.321-00', '23.456.789-00')
+
+c3.exibir_info_cadastro()
