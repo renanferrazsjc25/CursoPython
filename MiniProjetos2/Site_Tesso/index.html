@@ -229,7 +229,7 @@
             <p><strong>E-mail:</strong> <span id="email-address">renanferraz25@gmail.com</span></p>
           </div>
         </div>
-        <form class="contact-form" onsubmit="handleFormSubmit(event)">
+        <form class="contact-form" id="cadastro" onsubmit="handleFormSubmit(event)">
           <div class="form-group">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
@@ -268,6 +268,15 @@
       <p class="footer-note">Site estático criado para apresentação profissional. Adapte com seus dados reais.</p>
     </div>
   </footer>
+
+  <aside class="floating-promo" id="floating-promo" aria-label="Promoção de primeira consulta">
+    <a class="floating-promo__cta" id="floating-promo-cta" href="#cadastro">
+      <span class="floating-promo__badge">Promoção</span>
+      <span class="floating-promo__title">1ª consulta com condição especial</span>
+      <span class="floating-promo__subtitle">Clique e faça seu cadastro agora</span>
+    </a>
+    <button type="button" class="floating-promo__close" id="floating-promo-close" aria-label="Fechar banner">×</button>
+  </aside>
 
   <script src="script.js"></script>
 </body>
